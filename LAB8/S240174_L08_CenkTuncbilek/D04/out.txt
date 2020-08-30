@@ -1,0 +1,25 @@
+/home/vulgaris/Documents/OS/LAB8/e01 is a subdirectory with subdirectory count: 0
+/home/vulgaris/Documents/OS/LAB8 is a subdirectory with subdirectory count: 2
+/home/vulgaris/Documents/OS/LAB8/test_dir is a subdirectory with subdirectory count: 0
+Path: /home/vulgaris/Documents/OS/LAB8/bash1.sh || Size: 271 ||  User permissions: -rwxr-xr-x
+Path: /home/vulgaris/Documents/OS/LAB8/bash2.sh || Size: 140 ||  User permissions: -rwxr-xr-x
+Path: /home/vulgaris/Documents/OS/LAB8/bash3_1.sh || Size: 84 ||  User permissions: -rw-r--r--
+Path: /home/vulgaris/Documents/OS/LAB8/bash3_2.sh || Size: 88 ||  User permissions: -rwxr-xr-x
+Path: /home/vulgaris/Documents/OS/LAB8/bash3_3.sh || Size: 193 ||  User permissions: -rwxr-xr-x
+Path: /home/vulgaris/Documents/OS/LAB8/bash3_4.sh || Size: 261 ||  User permissions: -rw-r--r--
+Path: /home/vulgaris/Documents/OS/LAB8/bash3.sh || Size: 84 ||  User permissions: -rwxr-xr-x
+Path: /home/vulgaris/Documents/OS/LAB8/bash4.sh || Size: 542 ||  User permissions: -rwxr-xr-x
+Path: /home/vulgaris/Documents/OS/LAB8/.bash4.sh.swp || Size: 1024 ||  User permissions: -rw-r--r--
+Path: /home/vulgaris/Documents/OS/LAB8/cheatSheetCommands.pdf || Size: 18783 ||  User permissions: -rw-rw-r--
+Path: /home/vulgaris/Documents/OS/LAB8/cheatsheetEng.pdf || Size: 77804 ||  User permissions: -rw-rw-r--
+Path: /home/vulgaris/Documents/OS/LAB8/ex08.pdf || Size: 8445 ||  User permissions: -rw-rw-r--
+Path: /home/vulgaris/Documents/OS/LAB8/list || Size: 75 ||  User permissions: -rw-rw-r--
+Path: /home/vulgaris/Documents/OS/LAB8/lorem || Size: 51 ||  User permissions: -rw-rw-r--
+Path: /home/vulgaris/Documents/OS/LAB8/.lorem.swp || Size: 1024 ||  User permissions: -rw-r--r--
+Path: /home/vulgaris/Documents/OS/LAB8/out.txt || Size: 1037 ||  User permissions: -rw-r--r--
+Path: /home/vulgaris/Documents/OS/LAB8/products || Size: 75 ||  User permissions: -rw-r--r--
+Path: /home/vulgaris/Documents/OS/LAB8/quantity || Size: 75 ||  User permissions: -rw-r--r--
+Path: /home/vulgaris/Documents/OS/LAB8/u03s03-RegExpr-Find.pdf || Size: 228300 ||  User permissions: -rw-rw-r--
+Path: /home/vulgaris/Documents/OS/LAB8/u03s04-filters.pdf || Size: 155899 ||  User permissions: -rw-rw-r--
+Path: /home/vulgaris/Documents/OS/LAB8/u06s01-shell.pdf || Size: 198195 ||  User permissions: -rw-rw-r--
+Path: /home/vulgaris/Documents/OS/LAB8/u06s02-script.pdf || Size: 324628 ||  User permissions: -rw-rw-r--

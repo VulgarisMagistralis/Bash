@@ -1,0 +1,30 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<stdbool.h>
+#include<unistd.h>
+#include<sys/types.h>
+#include<signal.h>
+#include<sys/wait.h>
+#include<time.h>
+int main(int argc, char **args){
+	int stat; pid_t cpid;
+	int n1;
+	srand(time(NULL));
+	if(fork()){
+		fprintf(stdout,"Parent: PID=%d; ParentPID=%d\n",getpid(), getppid());
+		stat = 0;
+		sleep((n1 = (rand() % 11)));
+		cpid = wait(&stat);//if not used child pid changes, why?
+		fprintf(stdout, "n1: %d Parent Wait: ChildPID=%d Status=%x ",n1, cpid, stat);
+   	        fprintf(stdout, "WIFEXITED=%d WEXITSTATUS=%d  status0%d\n",WIFEXITED(stat),WEXITSTATUS(stat),stat);
+	  	printf("Parent completed\n");
+	  	exit (0);
+	}else{
+		fprintf(stdout,"Child : PID=%d; ParentPPID=%d\n",getpid(),getppid());
+    		sleep((rand() % 11));
+    		fprintf(stdout, "Child completed, parent : %d\n",getppid());
+		stat = 123;
+		exit((rand() % 256));
+	}
+	return 0;
+}

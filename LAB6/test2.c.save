@@ -1,0 +1,56 @@
+#include<stdio.h>
+#include<ctype.h>
+#include<stdlib.h>
+#include<unistd.h>
+#include<signal.h>
+#include<string.h>
+#include<dirent.h>
+#include<sys/wait.h>
+//c: 1 ready 0 not
+//p: 1 accept 0 deny
+int current_process_number = 0;
+int pipeline[2];
+void handler(int);
+char *request_pipe();
+int main(int argc, char **argv){
+	if(argc != 3) return 1;
+	char command[100] = "cd && cd ";
+	if(pipe(pipeline) <= 0) return 1;
+	pid_t *pids = malloc(atoi(argv[1]) * sizeof(pid_t));
+	strcat(strcat(command, argv[2]),"  && ls > list.txt");
+	system(command);
+	for(i =	0; i < atoi(args[1]); i++){
+		if(!fork()){
+			//make it independent from default path
+			printf("Child [%d] started", getpid());
+			pids[i] = getpid();
+			char *file = fopen(request_pipe(),"r");
+
+
+			exit(0);
+		}else{
+			//catch signal wait children
+			while(1){
+			
+			}
+
+		}
+
+	}
+//	for()waitpid();
+}
+//SIGUSR1 REQUEST
+//SIGUSR2 RETURN REQ.
+void handler(int signal){
+	if(getpid()){
+		if(signal == SIGUSR1){
+
+
+		}
+
+	}
+
+}
+char *request_pipe(){
+	//send signal to parent
+}
